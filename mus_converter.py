@@ -56,6 +56,7 @@ def convert_audio(input_file, output_file):
             "-ac", "1",
             "-ab", "8k",
             "-f", "wav",
+            "-y",
             output_file,
         ]
         subprocess.run(command, check=True, capture_output=True, text=True)
