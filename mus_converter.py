@@ -7,7 +7,7 @@ import sys
 from pathlib import Path
 import configparser
 
-REPO_URL = "https://raw.githubusercontent.com/FireLestics/MusConv2JavaME/main"
+REPO_URL = "https://raw.githubusercontent.com/FireLestics/MusConv2JavaME/refs/heads/main"
 VERSION_FILE = "version.ini"
 TEMP_DIR = "temp_repo"
 SUPPORTED_EXTENSIONS = (".mp3", ".wav", ".ogg", ".flac", ".m4a", ".aac")
